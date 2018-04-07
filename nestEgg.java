@@ -4,7 +4,9 @@ public class nestEgg
 {
  public static void main(String args[])
  {
-  int salary = 50,000;
+  double salary;
+  system.out.println("Hello. What is your salary? ");
+  salary = keyboard.nextDouble();
   double save = 5%;
   double growthRate = 15%;
   double F1 = salary * save * 0.01;
