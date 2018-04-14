@@ -8,7 +8,7 @@ public class nestEgg
   double salary;
   Scanner input = new Scanner(System.in);//Generates Scanner that scans the numbers you input
   System.out.println("Hello. What is your salary? ");
-  salary = keyboard.nextDouble();//Inputs your salary
+  salary = input.nextDouble();//Inputs your salary
   double save = 5;
   double growthRate = 15;
   double F1 = salary * save * 0.01;//Calculates your retirement fund for the first year
