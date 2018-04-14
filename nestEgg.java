@@ -5,18 +5,18 @@ public class nestEgg
  public static void main(String args[])
  {
   double salary;
-  system.out.println("Hello. What is your salary? ");
+  System.out.println("Hello. What is your salary? ");
   salary = keyboard.nextDouble();
-  double save = 5%;
-  double growthRate = 15%;
+  double save = 5;
+  double growthRate = 15;
   double F1 = salary * save * 0.01;
   double G1 = F1;
   double F2 = G1 * (1+0.01 * growthRate) + salary * save * 0.01;
   double G2 = F2;
   double F3 = G2 * (1+0.01 * growthrate) + salary * save * 0.01;
 
-  system.out.println("End of year 1:" + F1);
-  system.out.println("End of year 2:" + F2);
-  system.out.println("End of year 3:" + F3);
+  System.out.println("End of year 1:" + F1);
+  System.out.println("End of year 2:" + F2);
+  System.out.println("End of year 3:" + F3);
  }
 }
