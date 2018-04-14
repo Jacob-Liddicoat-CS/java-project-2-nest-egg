@@ -10,10 +10,8 @@ public class nestEgg
   double save = 5;
   double growthRate = 15;
   double F1 = salary * save * 0.01;
-  double G1 = F1;
-  double F2 = G1 * (1+0.01 * growthRate) + salary * save * 0.01;
-  double G2 = F2;
-  double F3 = G2 * (1+0.01 * growthrate) + salary * save * 0.01;
+  double F2 = F1 * (1+0.01 * growthRate) + salary * save * 0.01;
+  double F3 = F2 * (1+0.01 * growthrate) + salary * save * 0.01;
 
   System.out.println("End of year 1:" + F1);
   System.out.println("End of year 2:" + F2);
